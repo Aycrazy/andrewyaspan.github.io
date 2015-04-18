@@ -1,7 +1,7 @@
 {
-  "name": "op-spark-website",
-  "version": "0.0.2",
-  "description": "Our awesome website",
+  "name": "andrew-yaspanwebsite",
+  "version": "0.0.1",
+  "description": "My awesome adapted website",
   "dependencies": {
     "local-web-server": "^0.5.15"
   },
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OperationSpark/operationspark.github.io.git"
+    "url": "https://github.com/andrewyaspan.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/OperationSpark/operationspark.github.io/issues"
+    "url": "https://github.com/andrewyaspan.github.io/issues"
   },
-  "homepage": "https://github.com/OperationSpark/operationspark.github.io"
+  "homepage": "hhttps://github.com/andrewyaspan.github.io"
 }
