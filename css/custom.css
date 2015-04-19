@@ -3,7 +3,7 @@ body {
 	background: #f6f6ef;
 }
 
-.container{
+.container {
     max-width: 990px;
 }
 
@@ -11,6 +11,7 @@ p {
 	font-size: 18px;
 	line-height: 1.5;
 	margin: 0 0 16px;
+	color:#000000;
 }
 
 h1, h2, h3, h4, h5 {
@@ -18,7 +19,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1, h2, h3 {
-	color: #2a80b9;
+	color: #0066CC;
 	text-transform: uppercase;
 }
 
@@ -28,7 +29,7 @@ h4 {
 }
 
 a {
-	color: #9b59b6;
+	color: #FFFFFF;
 }
 
 hr {
@@ -55,7 +56,7 @@ ul li {
 /* Navigation */
 
 .navbar-default {
-	background: none;
+	background-color:#0066CC;
 	border: none;
 	height: 100px;
 	margin-bottom: 45px;
@@ -75,13 +76,17 @@ ul li {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #9B59B6;
+	color: #FFFFFF;
 }
 
 .navbar-brand img {
-	width: 180px;
+	width: 50px;
 }
 
+.navbar-name {
+	padding-top: 10px;
+	margin-left: 100px;
+}
 
 .dat-nav {
 	
@@ -97,7 +102,7 @@ ul li {
 
 .nav>li>a {
 	font-size: 22px;
-	color: #9b59b6;
+	color: #00CC00;
 }
 
 
@@ -107,7 +112,7 @@ ul.fa-ul {
 }
 
 .fa-check {
-	color: #6CC644;
+	color: #00CC00;
 }
 
 
@@ -136,6 +141,15 @@ h1.front {
 .mentors img {
 	border-radius: 10px;
 }
+
+.img-200 {
+width: 200px;
+}
+
+.img-20 {
+width: 20px;
+}
+
 
 .featurette {
 	padding-top: 30px; /* Because of margin-top on heading */
@@ -183,6 +197,20 @@ a.purple {
 	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
 	background-color: #9b59b6;
 	border: none;
+}
+
+a.green {
+width: 188px;
+	padding: 17px 0px;
+	margin-bottom: 20px;
+	font-size: 21px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+	background-color: #00CC00;
+	border: none;
+}
+
+a.black{
+	text-color:#000000;
 }
 
 a.purple:hover {
