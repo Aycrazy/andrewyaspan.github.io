@@ -20,6 +20,9 @@ h1, h2, h3, h4, h5 {
 
 h1, h2, h3 {
 	color: #0066CC;
+}
+
+.upper{
 	text-transform: uppercase;
 }
 
@@ -70,13 +73,23 @@ ul li {
 
 .navbar-collapse.collapse.in {
 	text-align: right;
-	background: #fff;
+	background: #0066CC;
 	z-index: 5000;
 	position: relative;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #FFFFFF;
+	color: #fff;
+}
+
+.navbar-line:hover {
+	color: #fff;
+	text-decoration:underline;
+}
+
+
+.navbar-default .navbar-nav:hover > li > a {
+ color: #fff;
 }
 
 .navbar-brand img {
@@ -97,22 +110,22 @@ ul li {
 }
 
 .dat-nav a {
-	color: #454545;
+	color: #FFFFFF;
+	
 }
 
 .nav>li>a {
 	font-size: 22px;
-	color: #00CC00;
+	color: #FFFFFF;
 }
 
 
-
-ul.fa-ul {
+.ul.fa-ul {
 	padding-left: 15px;
 }
 
 .fa-check {
-	color: #00CC00;
+	color: #FFFFFF;
 }
 
 
@@ -199,7 +212,7 @@ a.purple {
 	border: none;
 }
 
-a.green {
+a.green{
 width: 188px;
 	padding: 17px 0px;
 	margin-bottom: 20px;
@@ -209,18 +222,15 @@ width: 188px;
 	border: none;
 }
 
-a.black{
-	text-color:#000000;
+
+.black{
+	color:#000000;
 }
 
-a.purple:hover {
-	background: #7E389B;
+a.white{
+	color:#FFFFFF;
 }
 
-a.btn a:hover {
-	text-decoration: none;
-	color: #fff;
-}
 
 .culture {
 	background: #2a80b9;
@@ -248,7 +258,7 @@ a.culture  {
 }
 
 .nav-pills>li>a:hover {
-	color: #fff;
+	color: #FFFFFF;
 }
 
 .nav-pills>li.active>a, .nav-pills>li>a:hover, .nav-pills>li.active>a:focus {
@@ -279,6 +289,20 @@ a.culture  {
 	padding-bottom: 0px;
 	font-size: 16px;
 	text-transform: uppercase;
+	color:#fff;
+}
+
+.footer .navbar-link>li>a{
+		padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.footer .green:hover {
+	color:green;
+	background-color:white;
 }
 
 /* Misc. */
