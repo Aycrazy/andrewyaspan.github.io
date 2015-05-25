@@ -1,8 +1,8 @@
 <<<<<<< HEAD
-operationspark.github.io
+andrewyaspan.github.io
 ========================
 
-Operation Spark's website
+Andrew Yaspan's
 =======
 # andrewyaspan.github.io
 I am adapting the OperationSpark's website utilizing bootstrap and angular to create my own website (experimental for sure!)
